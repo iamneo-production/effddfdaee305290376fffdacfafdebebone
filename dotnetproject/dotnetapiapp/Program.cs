@@ -1,4 +1,4 @@
-using dotnetapi.Models;
+using dotnetapiapp.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

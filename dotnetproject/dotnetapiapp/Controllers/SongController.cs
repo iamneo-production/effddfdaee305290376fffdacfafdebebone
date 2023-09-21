@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using dotnetapi.Models;
+using dotnetapiapp.Models;
 
-namespace dotnetapi.Controllers
+namespace dotnetapiapp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

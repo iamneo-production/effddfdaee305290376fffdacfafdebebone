@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace dotnetapi.Models;
+namespace dotnetapiapp.Models;
 
 public class SongDbContext : DbContext
 {

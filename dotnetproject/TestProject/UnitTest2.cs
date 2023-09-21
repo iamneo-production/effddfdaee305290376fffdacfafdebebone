@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using dotnetmvcapp.Controllers;
 using dotnetmvcapp.Models;
+using dotnetmvcapp.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using NUnit.Framework;

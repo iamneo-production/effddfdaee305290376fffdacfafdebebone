@@ -21,8 +21,8 @@ namespace dotnetmvcapp.Services
             HttpClientHandler clientHandler = new HttpClientHandler();
             clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
             _httpClient = new HttpClient(clientHandler);
-            var apiSettings = configuration.GetSection("ApiSettings").Get<ApiSettings>();
-            _httpClient.BaseAddress = new Uri(apiSettings.BaseUrl);
+            //var apiSettings = configuration.GetSection("ApiSettings").Get<ApiSettings>();
+           // _httpClient.BaseAddress = new Uri(apiSettings.BaseUrl);
         }
 
         public bool AddSong(Song song)

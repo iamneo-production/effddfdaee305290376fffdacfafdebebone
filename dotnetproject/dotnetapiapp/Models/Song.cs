@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace dotnetapi.Models;
+namespace dotnetapiapp.Models;
 public class Song
 {
     public int SongID { get; set; }
