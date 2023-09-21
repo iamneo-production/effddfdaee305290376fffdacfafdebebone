@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookStoreDBFirst.Models;
+namespace dotnetapi.Models;
 
 public class SongDbContext : DbContext
 {
